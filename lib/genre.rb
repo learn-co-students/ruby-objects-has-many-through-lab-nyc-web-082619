@@ -21,8 +21,7 @@ def initialize(name)
 
 
   def artists
-    songs.collect {|song| song.artist}
-     
+    songs.collect {|song| song.artist} 
   end
 
 
